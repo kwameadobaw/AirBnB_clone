@@ -17,11 +17,18 @@
     width: 20%;
     border: none;
     border-radius: 4px;
-    margin-right: 30px;
+    margin: 12px 30px;
     float: right;
     opacity: 100%;
 }
 
 .filters button:hover {
-    opacity: 90%;
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    .filters button {
+        width: 30%;
+        margin: 12px 10px;
+    }
 }
